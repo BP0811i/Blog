@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 2px solid #333;
+}
+
+.head h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar ul li:last-child {
+    float: right;
+}
+
+.lside, .rside {
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.lside {
+    width: 50%;
+    float: left;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px 2.5%;
+}
+
+.rside {
+    width: 40%;
+    float: right;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px 2.5%;
+    padding: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
